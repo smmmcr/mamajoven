@@ -1,0 +1,280 @@
+* {
+padding: 0;
+margin: 0;
+text-decoration:none;
+list-style-type:none;
+}
+body {
+background: #000;
+font-size:arial;-webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+}
+p{
+color: rgb(247, 11, 11);
+font-weight: bold;
+font-size: 133.4%;
+position: relative;
+}
+.ui-header img{
+margin-left:25%;
+width:50%;
+}
+.ui-content{
+background:url(img/fondo.jpg) no-repeat;
+height:auto;
+background-size: 100% 100%;
+}
+.ui-header{
+box-shadow: 0px 3px 18px 1px #000;
+}
+.ui-footer{
+box-shadow: 0px 6px 30px 9px #000;
+}
+/* solo en caso de usar menu con letras en la imagen
+#menuP :nth-child(2) :nth-child(2){
+padding-left: 27px;
+}
+#menuP :nth-child(3) :nth-child(2){
+padding-left: 27px;
+}*/
+#menuP {
+width:98%
+}
+#menuP img{
+width:100%
+}
+.ui-bar-a{
+
+background-size: 100%!important;
+border:none;
+}
+.ui-footer{
+background-image: url(img/footer.png)!important;
+background-size: 100% 100%!important;
+border:none;
+height: 10%;
+}
+.headerGuia img{
+box-shadow: 0px 6px 28px 7px #000;
+width:100%;
+}
+
+#wrapper img{
+width: 72%;
+}
+/*
+#wrapper {
+	width:300px;
+	height:160px;
+	float:left;
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+/*	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+/*	overflow:hidden;
+	background:#aaa;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	background:#e3e3e3;
+}*/
+#wrapper {	
+/*width: 95%;*/
+width: 434px;
+float: left;
+position: absolute;
+z-index: 1;
+overflow: hidden;
+background: #aaa;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+border-radius: 10px;
+background: #e3e3e3;
+margin-top: 12%;
+height: 56%;
+}
+#scroller {
+	width:3000px;
+	height:100%;
+	float:left;
+	padding:0;
+}
+#scroller ul {
+	list-style:none;
+	display:block;
+	float:left;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-align:left;
+}
+#scroller li {
+	webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+display: block;
+float: left;
+width: 14%;
+text-align: center;
+font-family: georgia;
+font-size: 18px;
+line-height: 140%;
+position: relative;
+margin-left: 0%;
+margin-top: 2%;
+}
+#nav {
+	width:300px;
+	float:left;
+}
+#prev, #next {
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 0;
+	width:80px;
+}
+#next {
+	float:right;
+	text-align:right;
+}
+#indicator, #indicator > li {
+	display:block; float:left;
+	list-style:none;
+	padding:0; margin:0;
+}
+#indicator {
+	width:110px;
+	padding:12px 0 0 30px;
+}
+#indicator > li {
+	text-indent:-9999em;
+	width:8px; height:8px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	background:#ddd;
+	overflow:hidden;
+	margin-right:4px;
+}
+#indicator > li.active {
+	background:#888;
+}
+#indicator > li:last-child {
+	margin:0;
+}
+#productosGuia{
+height: 64%;
+width: 94%;
+overflow: hidden;
+position: absolute;
+}
+#sliderSuper{
+width: 100%;
+position: relative;
+}
+#sliderSuper img{
+width: 100%;
+}
+.btnfooter{
+width: 50%;
+float: left;
+margin-top: 15px;
+color: #fff!important;
+}
+.btnfooter a{
+color: #fff!important;
+}
+.footer  div:nth-child(2){
+width: 19%;
+margin-left: 27%;
+margin-left: 27%;
+}
+#selectores{
+width: 85%;
+margin-left: 8%;
+margin-top: 26%;
+margin-bottom: 40%;
+}
+#busquedarapida{
+margin-left: 12%;
+}
+#btnsgeneralLlama{
+float: left;
+margin-top: 39px;
+margin-left: 37px;
+width: 83%;
+}
+
+#btnsgeneralLlama a{
+box-shadow: 3px 5px 22px 0px #000;
+}
+#btnsgeneralLlama img{
+margin-top: 13px;
+margin-left: 20%;
+width: 61%;
+height: 59px;
+}
+#contenidoScroll{width: 61%;height: auto;min-height:100%;}
+/*scroll ubicanos*/
+.filter{display:none;}
+#headerinter1 {display:none;	width:100%;	height:45px;line-height:45px;background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #fe96c9), color-stop(0.05, #d51875), color-stop(1, #7b0a2e));	padding:0;color:#eee;font-size:20px;text-align:center;}
+#headerinter1 a {color:#f3f3f3;text-decoration:none;font-weight:bold;text-shadow:0 -1px 0 rgba(0,0,0,0.5);}
+#footerinter1 {display:none;width:100%;height:48px;background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #999), color-stop(0.02, #666), color-stop(1, #222));	padding:0;border-top:1px solid #444;}
+#footerinter1 li {display:block;	float:left;}
+#footerinter1 li {width:50%;	text-align:center;}
+#footerinter1 a.remove {border-right:1px solid #333;}
+#footerinter1 a.add {	border-left:1px solid #6a6a6a;}
+#footerinter1 a {	display:block;	text-decoration:none;font-size:12px;	color:#eee;	line-height:24px;text-shadow:0 -1px 0 #000;}
+#footerinter1 span {display:block;font-size:30px;font-weight:bold;}
+#wrapper1 {display:none; width:100%;}
+#scrollercontacto {/*	-webkit-touch-callout:none;*/	-webkit-tap-highlight-color:rgba(0,0,0,0);float:left;width:100%;padding:0;/*webkit-box-shadow:0 0 8px #555;	/* Don't use box shadows, they slow down drastically CSS animations */}
+#selectrecetas{
+cursor: pointer;
+left: 0;
+top: 0;
+
+width: 100%;
+height: 100%;
+opacity: 0;
+-ms-filter: "alpha(opacity=0)";
+filter: alpha(opacity=0);
+}
+#menurecetas{
+position:relative;
+width:100%;
+height:50px;
+}
+#recetafinal{
+width: 100%;
+background: rgba(226, 226, 226, 0.89);
+border-radius: 12px;
+box-shadow: 0px 7px 53px 8px #000;
+position: relative;
+height: 569px;
+margin-top: 54px;
+}
+#recetafinal img{
+width: 100%;
+height: 200px;
+margin-top: 17px;
+}
+#nombrereceta {
+margin: auto;
+width: 45%;
+color: #0B75BA!important;
+}
+#tituingre{
+margin-left: 0px;
+color: #000;
+
+width: 45%;
+}
+#recetafinal p {
+margin: auto;
+width: 45%;
+color: #000;
+}
