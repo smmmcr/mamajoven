@@ -13,7 +13,6 @@
 		<gap:platform name="blackberry" project="widgets"/>
 	</gap:platforms>	
 
-	
 	<preference name="permissions" value="none"/>
 	<preference name="phonegap-version" value="2.7.0" />
 	<access origin="*" />
